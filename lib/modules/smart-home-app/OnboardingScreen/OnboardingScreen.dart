@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:hi_ddd_test1/modules/LoginScreen/LoginScreen.dart';
+import 'package:hi_ddd_test1/modules/smart-home-app/LoginScreen/LoginScreen.dart';
 import 'package:introduction_screen/introduction_screen.dart';
 
 class OnboardingScreen extends StatefulWidget {

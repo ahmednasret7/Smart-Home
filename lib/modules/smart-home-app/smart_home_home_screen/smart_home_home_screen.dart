@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:lite_rolling_switch/lite_rolling_switch.dart';
+// import 'package:lite_rolling_switch/lite_rolling_switch.dart';
 class RunningDevices
 {
   late final String name;
@@ -310,22 +310,22 @@ class _HomeScreenState extends State<HomeScreen> {
                 color: logocolor2,
                 size: 40,
               ),
-              LiteRollingSwitch(
-                  value: true,
-                  textOn: 'On',
-                  textOff: 'Off',
-                  colorOn: logocolor2,
-                  colorOff: Colors.redAccent,
-                  iconOff: Icons.not_interested_sharp,
-
-                  onTap: (){},
-                  textSize: 16,
-                  onDoubleTap: (){},
-                  onSwipe: (){},
-                  onChanged: (bool position){
-                    print('The Button is $position');
-                  }
-              )
+              // LiteRollingSwitch(
+              //     value: true,
+              //     textOn: 'On',
+              //     textOff: 'Off',
+              //     colorOn: logocolor2,
+              //     colorOff: Colors.redAccent,
+              //     iconOff: Icons.not_interested_sharp,
+              //
+              //     onTap: (){},
+              //     textSize: 16,
+              //     onDoubleTap: (){},
+              //     onSwipe: (){},
+              //     onChanged: (bool position){
+              //       print('The Button is $position');
+              //     }
+              // )
              ],
            ),
          ],
@@ -386,23 +386,23 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
               SizedBox(height: 5),
-              LiteRollingSwitch(
-                  width: 120,
-                  value: true,
-                  textOn: 'On',
-                  textOff: 'Off',
-                  colorOn: logocolor2,
-                  colorOff: Colors.redAccent,
-                  iconOff: Icons.not_interested_sharp,
-                  animationDuration: Duration(milliseconds: 100),
-                  onTap: (){},
-                  textSize: 16,
-                  onDoubleTap: (){},
-                  onSwipe: (){},
-                  onChanged: (bool position){
-                    print('The Button is $position');
-                  }
-              ),
+              // LiteRollingSwitch(
+              //     width: 120,
+              //     value: true,
+              //     textOn: 'On',
+              //     textOff: 'Off',
+              //     colorOn: logocolor2,
+              //     colorOff: Colors.redAccent,
+              //     iconOff: Icons.not_interested_sharp,
+              //     animationDuration: Duration(milliseconds: 100),
+              //     onTap: (){},
+              //     textSize: 16,
+              //     onDoubleTap: (){},
+              //     onSwipe: (){},
+              //     onChanged: (bool position){
+              //       print('The Button is $position');
+              //     }
+              // ),
             ],
           ),
         ),

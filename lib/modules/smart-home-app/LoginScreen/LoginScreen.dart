@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hi_ddd_test1/modules/smart-home-app/register/register_screen.dart';
 import 'package:hi_ddd_test1/shared/components/components.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -8,10 +9,7 @@ class LoginScreen extends StatefulWidget {
 
 class _LoginScreenState extends State<LoginScreen> {
   var emailcontroller = TextEditingController();
-  var emailcontroller2 = TextEditingController();
-
   var passwordcontroller = TextEditingController();
-
   var formKey = GlobalKey<FormState>();
 
   var Showpassword = true;
@@ -117,12 +115,13 @@ class _LoginScreenState extends State<LoginScreen> {
                         'Don\'t have an account?',
                         style: TextStyle(fontWeight: FontWeight.normal),
                       ),
-                      TextButton(
-                          onPressed: () {},
-                          child: Text(
-                            'Register',
-                            style: TextStyle(fontWeight: FontWeight.normal),
-                          ))
+                      defaultTextButton(function: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => RegisterScreen()),
+                        );
+                      },
+                          text: 'Register')
                     ],
                   ),
                 ],
