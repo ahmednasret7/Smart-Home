@@ -1,6 +1,6 @@
 # hi_ddd_test1
 
-A new Flutter project. Test 1
+Mobile application for smart-home system using flutter
 
 ## Getting Started
 
